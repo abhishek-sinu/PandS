@@ -1,0 +1,30 @@
+/* Formatting toolbar for textareas */
+.formatting-toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.format-btn {
+  background: #23272f;
+  color: #b3e0ff;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.format-btn:hover {
+  background: #2d3748;
+  color: #ffd700;
+}
+.color-picker {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 4px;
+  cursor: pointer;
+  background: none;
+  padding: 0;
+}
